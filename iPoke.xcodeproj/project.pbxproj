@@ -17,6 +17,7 @@
 		711A9852299406FC000F225E /* iPokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A9851299406FC000F225E /* iPokeTests.swift */; };
 		711A985C299406FC000F225E /* iPokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A985B299406FC000F225E /* iPokeUITests.swift */; };
 		711A985E299406FC000F225E /* iPokeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A985D299406FC000F225E /* iPokeUITestsLaunchTests.swift */; };
+		90C7E7D129942CF400A6F5F5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C7E7D029942CF400A6F5F5 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		711A9857299406FC000F225E /* iPokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		711A985B299406FC000F225E /* iPokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPokeUITests.swift; sourceTree = "<group>"; };
 		711A985D299406FC000F225E /* iPokeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPokeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90C7E7D029942CF400A6F5F5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				711A9837299406FA000F225E /* AppDelegate.swift */,
 				711A9839299406FA000F225E /* SceneDelegate.swift */,
 				711A983B299406FA000F225E /* ViewController.swift */,
+				90C7E7D029942CF400A6F5F5 /* CreateAccountViewController.swift */,
 				711A983D299406FA000F225E /* Main.storyboard */,
 				711A9843299406FC000F225E /* Assets.xcassets */,
 				711A9845299406FC000F225E /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C7E7D129942CF400A6F5F5 /* CreateAccountViewController.swift in Sources */,
 				711A983C299406FA000F225E /* ViewController.swift in Sources */,
 				711A9838299406FA000F225E /* AppDelegate.swift in Sources */,
 				711A9842299406FA000F225E /* iPoke.xcdatamodeld in Sources */,
