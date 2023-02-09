@@ -7,68 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		711A9838299406FA000F225E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A9837299406FA000F225E /* AppDelegate.swift */; };
-		711A983A299406FA000F225E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A9839299406FA000F225E /* SceneDelegate.swift */; };
-		711A983C299406FA000F225E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A983B299406FA000F225E /* ViewController.swift */; };
-		711A983F299406FA000F225E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711A983D299406FA000F225E /* Main.storyboard */; };
-		711A9842299406FA000F225E /* iPoke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 711A9840299406FA000F225E /* iPoke.xcdatamodeld */; };
-		711A9844299406FC000F225E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711A9843299406FC000F225E /* Assets.xcassets */; };
-		711A9847299406FC000F225E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711A9845299406FC000F225E /* LaunchScreen.storyboard */; };
-		711A9852299406FC000F225E /* iPokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A9851299406FC000F225E /* iPokeTests.swift */; };
-		711A985C299406FC000F225E /* iPokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A985B299406FC000F225E /* iPokeUITests.swift */; };
-		711A985E299406FC000F225E /* iPokeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A985D299406FC000F225E /* iPokeUITestsLaunchTests.swift */; };
+		71E8E49929947F2A00D8FBA7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8E49829947F2A00D8FBA7 /* HomeScreenViewController.swift */; };
+		792B1DD7297F5BC500CB1539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B1DD6297F5BC500CB1539 /* AppDelegate.swift */; };
+		792B1DD9297F5BC500CB1539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B1DD8297F5BC500CB1539 /* SceneDelegate.swift */; };
+		792B1DDB297F5BC500CB1539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B1DDA297F5BC500CB1539 /* ViewController.swift */; };
+		792B1DDE297F5BC500CB1539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792B1DDC297F5BC500CB1539 /* Main.storyboard */; };
+		792B1DE0297F5BC700CB1539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792B1DDF297F5BC700CB1539 /* Assets.xcassets */; };
+		792B1DE3297F5BC700CB1539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792B1DE1297F5BC700CB1539 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		711A984E299406FC000F225E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 711A982C299406FA000F225E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 711A9833299406FA000F225E;
-			remoteInfo = iPoke;
-		};
-		711A9858299406FC000F225E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 711A982C299406FA000F225E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 711A9833299406FA000F225E;
-			remoteInfo = iPoke;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		711A9834299406FA000F225E /* iPoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		711A9837299406FA000F225E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		711A9839299406FA000F225E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		711A983B299406FA000F225E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		711A983E299406FA000F225E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		711A9841299406FA000F225E /* iPoke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPoke.xcdatamodel; sourceTree = "<group>"; };
-		711A9843299406FC000F225E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		711A9846299406FC000F225E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		711A9848299406FC000F225E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		711A984D299406FC000F225E /* iPokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		711A9851299406FC000F225E /* iPokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPokeTests.swift; sourceTree = "<group>"; };
-		711A9857299406FC000F225E /* iPokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		711A985B299406FC000F225E /* iPokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPokeUITests.swift; sourceTree = "<group>"; };
-		711A985D299406FC000F225E /* iPokeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPokeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71E8E49829947F2A00D8FBA7 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		792B1DD3297F5BC500CB1539 /* iPoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		792B1DD6297F5BC500CB1539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		792B1DD8297F5BC500CB1539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		792B1DDA297F5BC500CB1539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		792B1DDD297F5BC500CB1539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		792B1DDF297F5BC700CB1539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		792B1DE2297F5BC700CB1539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		792B1DE4297F5BC700CB1539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		711A9831299406FA000F225E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		711A984A299406FC000F225E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		711A9854299406FC000F225E /* Frameworks */ = {
+		792B1DD0297F5BC500CB1539 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,68 +39,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		711A982B299406FA000F225E = {
+		792B1DCA297F5BC500CB1539 = {
 			isa = PBXGroup;
 			children = (
-				711A9836299406FA000F225E /* iPoke */,
-				711A9850299406FC000F225E /* iPokeTests */,
-				711A985A299406FC000F225E /* iPokeUITests */,
-				711A9835299406FA000F225E /* Products */,
+				792B1DD5297F5BC500CB1539 /* iPoke */,
+				792B1DD4297F5BC500CB1539 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		711A9835299406FA000F225E /* Products */ = {
+		792B1DD4297F5BC500CB1539 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				711A9834299406FA000F225E /* iPoke.app */,
-				711A984D299406FC000F225E /* iPokeTests.xctest */,
-				711A9857299406FC000F225E /* iPokeUITests.xctest */,
+				792B1DD3297F5BC500CB1539 /* iPoke.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		711A9836299406FA000F225E /* iPoke */ = {
+		792B1DD5297F5BC500CB1539 /* iPoke */ = {
 			isa = PBXGroup;
 			children = (
-				711A9837299406FA000F225E /* AppDelegate.swift */,
-				711A9839299406FA000F225E /* SceneDelegate.swift */,
-				711A983B299406FA000F225E /* ViewController.swift */,
-				711A983D299406FA000F225E /* Main.storyboard */,
-				711A9843299406FC000F225E /* Assets.xcassets */,
-				711A9845299406FC000F225E /* LaunchScreen.storyboard */,
-				711A9848299406FC000F225E /* Info.plist */,
-				711A9840299406FA000F225E /* iPoke.xcdatamodeld */,
+				792B1DD6297F5BC500CB1539 /* AppDelegate.swift */,
+				792B1DD8297F5BC500CB1539 /* SceneDelegate.swift */,
+				792B1DDA297F5BC500CB1539 /* ViewController.swift */,
+				71E8E49829947F2A00D8FBA7 /* HomeScreenViewController.swift */,
+				792B1DDC297F5BC500CB1539 /* Main.storyboard */,
+				792B1DDF297F5BC700CB1539 /* Assets.xcassets */,
+				792B1DE1297F5BC700CB1539 /* LaunchScreen.storyboard */,
+				792B1DE4297F5BC700CB1539 /* Info.plist */,
 			);
 			path = iPoke;
-			sourceTree = "<group>";
-		};
-		711A9850299406FC000F225E /* iPokeTests */ = {
-			isa = PBXGroup;
-			children = (
-				711A9851299406FC000F225E /* iPokeTests.swift */,
-			);
-			path = iPokeTests;
-			sourceTree = "<group>";
-		};
-		711A985A299406FC000F225E /* iPokeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				711A985B299406FC000F225E /* iPokeUITests.swift */,
-				711A985D299406FC000F225E /* iPokeUITestsLaunchTests.swift */,
-			);
-			path = iPokeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		711A9833299406FA000F225E /* iPoke */ = {
+		792B1DD2297F5BC500CB1539 /* iPoke */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 711A9861299406FC000F225E /* Build configuration list for PBXNativeTarget "iPoke" */;
+			buildConfigurationList = 792B1DE7297F5BC700CB1539 /* Build configuration list for PBXNativeTarget "iPoke" */;
 			buildPhases = (
-				711A9830299406FA000F225E /* Sources */,
-				711A9831299406FA000F225E /* Frameworks */,
-				711A9832299406FA000F225E /* Resources */,
+				792B1DCF297F5BC500CB1539 /* Sources */,
+				792B1DD0297F5BC500CB1539 /* Frameworks */,
+				792B1DD1297F5BC500CB1539 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +87,25 @@
 			);
 			name = iPoke;
 			productName = iPoke;
-			productReference = 711A9834299406FA000F225E /* iPoke.app */;
+			productReference = 792B1DD3297F5BC500CB1539 /* iPoke.app */;
 			productType = "com.apple.product-type.application";
-		};
-		711A984C299406FC000F225E /* iPokeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 711A9864299406FC000F225E /* Build configuration list for PBXNativeTarget "iPokeTests" */;
-			buildPhases = (
-				711A9849299406FC000F225E /* Sources */,
-				711A984A299406FC000F225E /* Frameworks */,
-				711A984B299406FC000F225E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				711A984F299406FC000F225E /* PBXTargetDependency */,
-			);
-			name = iPokeTests;
-			productName = iPokeTests;
-			productReference = 711A984D299406FC000F225E /* iPokeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		711A9856299406FC000F225E /* iPokeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 711A9867299406FC000F225E /* Build configuration list for PBXNativeTarget "iPokeUITests" */;
-			buildPhases = (
-				711A9853299406FC000F225E /* Sources */,
-				711A9854299406FC000F225E /* Frameworks */,
-				711A9855299406FC000F225E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				711A9859299406FC000F225E /* PBXTargetDependency */,
-			);
-			name = iPokeUITests;
-			productName = iPokeUITests;
-			productReference = 711A9857299406FC000F225E /* iPokeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		711A982C299406FA000F225E /* Project object */ = {
+		792B1DCB297F5BC500CB1539 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					711A9833299406FA000F225E = {
+					792B1DD2297F5BC500CB1539 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					711A984C299406FC000F225E = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 711A9833299406FA000F225E;
-					};
-					711A9856299406FC000F225E = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 711A9833299406FA000F225E;
 					};
 				};
 			};
-			buildConfigurationList = 711A982F299406FA000F225E /* Build configuration list for PBXProject "iPoke" */;
+			buildConfigurationList = 792B1DCE297F5BC500CB1539 /* Build configuration list for PBXProject "iPoke" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,102 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 711A982B299406FA000F225E;
-			productRefGroup = 711A9835299406FA000F225E /* Products */;
+			mainGroup = 792B1DCA297F5BC500CB1539;
+			productRefGroup = 792B1DD4297F5BC500CB1539 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				711A9833299406FA000F225E /* iPoke */,
-				711A984C299406FC000F225E /* iPokeTests */,
-				711A9856299406FC000F225E /* iPokeUITests */,
+				792B1DD2297F5BC500CB1539 /* iPoke */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		711A9832299406FA000F225E /* Resources */ = {
+		792B1DD1297F5BC500CB1539 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				711A9847299406FC000F225E /* LaunchScreen.storyboard in Resources */,
-				711A9844299406FC000F225E /* Assets.xcassets in Resources */,
-				711A983F299406FA000F225E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		711A984B299406FC000F225E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		711A9855299406FC000F225E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				792B1DE3297F5BC700CB1539 /* LaunchScreen.storyboard in Resources */,
+				792B1DE0297F5BC700CB1539 /* Assets.xcassets in Resources */,
+				792B1DDE297F5BC500CB1539 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		711A9830299406FA000F225E /* Sources */ = {
+		792B1DCF297F5BC500CB1539 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				711A983C299406FA000F225E /* ViewController.swift in Sources */,
-				711A9838299406FA000F225E /* AppDelegate.swift in Sources */,
-				711A9842299406FA000F225E /* iPoke.xcdatamodeld in Sources */,
-				711A983A299406FA000F225E /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		711A9849299406FC000F225E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				711A9852299406FC000F225E /* iPokeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		711A9853299406FC000F225E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				711A985C299406FC000F225E /* iPokeUITests.swift in Sources */,
-				711A985E299406FC000F225E /* iPokeUITestsLaunchTests.swift in Sources */,
+				792B1DDB297F5BC500CB1539 /* ViewController.swift in Sources */,
+				71E8E49929947F2A00D8FBA7 /* HomeScreenViewController.swift in Sources */,
+				792B1DD7297F5BC500CB1539 /* AppDelegate.swift in Sources */,
+				792B1DD9297F5BC500CB1539 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		711A984F299406FC000F225E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 711A9833299406FA000F225E /* iPoke */;
-			targetProxy = 711A984E299406FC000F225E /* PBXContainerItemProxy */;
-		};
-		711A9859299406FC000F225E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 711A9833299406FA000F225E /* iPoke */;
-			targetProxy = 711A9858299406FC000F225E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		711A983D299406FA000F225E /* Main.storyboard */ = {
+		792B1DDC297F5BC500CB1539 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				711A983E299406FA000F225E /* Base */,
+				792B1DDD297F5BC500CB1539 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		711A9845299406FC000F225E /* LaunchScreen.storyboard */ = {
+		792B1DE1297F5BC700CB1539 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				711A9846299406FC000F225E /* Base */,
+				792B1DE2297F5BC700CB1539 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		711A985F299406FC000F225E /* Debug */ = {
+		792B1DE5297F5BC700CB1539 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		711A9860299406FC000F225E /* Release */ = {
+		792B1DE6297F5BC700CB1539 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,191 +284,92 @@
 			};
 			name = Release;
 		};
-		711A9862299406FC000F225E /* Debug */ = {
+		792B1DE8297F5BC700CB1539 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 278X95PFN5;
+				DEVELOPMENT_TEAM = DR6UHJF8KP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iPoke/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.yandeveloper.iPoke;
+				PRODUCT_BUNDLE_IDENTIFIER = wcovi.iPoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		711A9863299406FC000F225E /* Release */ = {
+		792B1DE9297F5BC700CB1539 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 278X95PFN5;
+				DEVELOPMENT_TEAM = DR6UHJF8KP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iPoke/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.yandeveloper.iPoke;
+				PRODUCT_BUNDLE_IDENTIFIER = wcovi.iPoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		711A9865299406FC000F225E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 278X95PFN5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.yandeveloper.iPokeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPoke.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPoke";
-			};
-			name = Debug;
-		};
-		711A9866299406FC000F225E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 278X95PFN5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.yandeveloper.iPokeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPoke.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPoke";
-			};
-			name = Release;
-		};
-		711A9868299406FC000F225E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 278X95PFN5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.yandeveloper.iPokeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iPoke;
-			};
-			name = Debug;
-		};
-		711A9869299406FC000F225E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 278X95PFN5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.yandeveloper.iPokeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iPoke;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		711A982F299406FA000F225E /* Build configuration list for PBXProject "iPoke" */ = {
+		792B1DCE297F5BC500CB1539 /* Build configuration list for PBXProject "iPoke" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				711A985F299406FC000F225E /* Debug */,
-				711A9860299406FC000F225E /* Release */,
+				792B1DE5297F5BC700CB1539 /* Debug */,
+				792B1DE6297F5BC700CB1539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		711A9861299406FC000F225E /* Build configuration list for PBXNativeTarget "iPoke" */ = {
+		792B1DE7297F5BC700CB1539 /* Build configuration list for PBXNativeTarget "iPoke" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				711A9862299406FC000F225E /* Debug */,
-				711A9863299406FC000F225E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		711A9864299406FC000F225E /* Build configuration list for PBXNativeTarget "iPokeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				711A9865299406FC000F225E /* Debug */,
-				711A9866299406FC000F225E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		711A9867299406FC000F225E /* Build configuration list for PBXNativeTarget "iPokeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				711A9868299406FC000F225E /* Debug */,
-				711A9869299406FC000F225E /* Release */,
+				792B1DE8297F5BC700CB1539 /* Debug */,
+				792B1DE9297F5BC700CB1539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		711A9840299406FA000F225E /* iPoke.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				711A9841299406FA000F225E /* iPoke.xcdatamodel */,
-			);
-			currentVersion = 711A9841299406FA000F225E /* iPoke.xcdatamodel */;
-			path = iPoke.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 711A982C299406FA000F225E /* Project object */;
+	rootObject = 792B1DCB297F5BC500CB1539 /* Project object */;
 }
