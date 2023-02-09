@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  iPoke
 //
-//  Created by Yan Alejandro on 08/02/23.
+//  Created by Wolfgang Florian Covi on 23/01/23.
 //
 
 import UIKit
