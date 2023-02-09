@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71E8E49929947F2A00D8FBA7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8E49829947F2A00D8FBA7 /* HomeScreenViewController.swift */; };
 		792B1DD7297F5BC500CB1539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B1DD6297F5BC500CB1539 /* AppDelegate.swift */; };
 		792B1DD9297F5BC500CB1539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B1DD8297F5BC500CB1539 /* SceneDelegate.swift */; };
 		792B1DDB297F5BC500CB1539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B1DDA297F5BC500CB1539 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71E8E49829947F2A00D8FBA7 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		792B1DD3297F5BC500CB1539 /* iPoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		792B1DD6297F5BC500CB1539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		792B1DD8297F5BC500CB1539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				792B1DD6297F5BC500CB1539 /* AppDelegate.swift */,
 				792B1DD8297F5BC500CB1539 /* SceneDelegate.swift */,
 				792B1DDA297F5BC500CB1539 /* ViewController.swift */,
+				71E8E49829947F2A00D8FBA7 /* HomeScreenViewController.swift */,
 				792B1DDC297F5BC500CB1539 /* Main.storyboard */,
 				792B1DDF297F5BC700CB1539 /* Assets.xcassets */,
 				792B1DE1297F5BC700CB1539 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				792B1DDB297F5BC500CB1539 /* ViewController.swift in Sources */,
+				71E8E49929947F2A00D8FBA7 /* HomeScreenViewController.swift in Sources */,
 				792B1DD7297F5BC500CB1539 /* AppDelegate.swift in Sources */,
 				792B1DD9297F5BC500CB1539 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
