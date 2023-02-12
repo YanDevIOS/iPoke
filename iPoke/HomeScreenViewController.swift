@@ -9,8 +9,8 @@ import UIKit
 
 class HomeScreenViewController: UIViewController {
 
+    @IBOutlet weak var homeTextField: UITextField!
     @IBOutlet weak var fundoHomeImageView: UIImageView!
-    @IBOutlet weak var fundoHomePrincipalImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class HomeScreenViewController: UIViewController {
     
     func addCustons() {
         customFundoHomeImageView()
-        customFundoHomePrincipalImageView()
+        customTextField()
     }
 
     func customFundoHomeImageView() {
@@ -27,8 +27,8 @@ class HomeScreenViewController: UIViewController {
         fundoHomeImageView.contentMode = .scaleToFill
     }
     
-    func customFundoHomePrincipalImageView() {
-        fundoHomePrincipalImageView.image = UIImage(named: "fundoHome")
-        fundoHomePrincipalImageView.contentMode = .scaleToFill
+    func customTextField() {
+        let placeHolderText = NSAttributedString(string: "Digite o nome ou número do pokémon", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+        homeTextField.attributedPlaceholder = placeHolderText
     }
 }
